@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Model Files (IGNORE trained models)
+# =========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Data (optional ignore large files)
+# =========================
+*.csv.gz
+*.parquet
+*.sqlite
+*.db
+
+# Keep dataset if needed
+!insurance.csv
+!requirements.txt
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Temporary files
+# =========================
+*.bak
+*.tmp
+*~

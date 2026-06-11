@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit>=1.18.0
+uv
+ipywidgets
+notebook
+joblib
