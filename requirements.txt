@@ -8,3 +8,4 @@ uv
 ipywidgets
 notebook
 joblib
+matplotlib
